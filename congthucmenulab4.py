@@ -32,12 +32,12 @@ def can_bac_hai():
 def ham_luong_giac():
     a = math.radians(float(input("Nhập góc thứ nhất (độ): ")))
     b = math.radians(float(input("Nhập góc thứ hai (độ): ")))
-    print(f"sin({math.degrees(a)}°) = {math.sin(a)}")
-    print(f"cos({math.degrees(a)}°) = {math.cos(a)}")
-    print(f"tan({math.degrees(a)}°) = {math.tan(a)}")
-    print(f"sin({math.degrees(b)}°) = {math.sin(b)}")
-    print(f"cos({math.degrees(b)}°) = {math.cos(b)}")
-    print(f"tan({math.degrees(b)}°) = {math.tan(b)}")
+    print(f"sin({math.degrees(a)}) = {math.sin(a)}")
+    print(f"cos({math.degrees(a)}) = {math.cos(a)}")
+    print(f"tan({math.degrees(a)}) = {math.tan(a)}")
+    print(f"sin({math.degrees(b)}) = {math.sin(b)}")
+    print(f"cos({math.degrees(b)}) = {math.cos(b)}")
+    print(f"tan({math.degrees(b)}) = {math.tan(b)}")
     lich_su_pheptinh.append("Hàm lượng giác: sin, cos, tan")
 
 def logarit():
@@ -60,7 +60,7 @@ def giai_pt_bac_nhat():
     if a != 0:  
         x = -b / a
         print("Nghiệm của phương trình là x =", x)
-        lich_su_pheptinh.append(f"PT bậc nhất: {a}x + {b} = 0 → x={x}")
+        lich_su_pheptinh.append(f"PT bậc nhất: {a}x + {b} = 0,  x={x}")
     else:
         print("Lỗi: Hệ số 'a' phải khác 0.")
 

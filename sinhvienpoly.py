@@ -36,18 +36,3 @@ class SinhVienBiz(SinhVienPoly):
         self.sales = sales
     def get_diem(self):
         return (self.marketing + self.sales) / 2
-class menuSinhVien:
-    def __init__(self):
-        self.danh_sach_sv = []
-    def menu(self):
-        menu= {
-            "1": "Nhập danh sách sinh viên",
-            "2": " Xuất thông tin danh sách sinh viên",
-            "3": "Xuất danh sách sinh viên có học lực giỏi",
-        "4": "Sắp xếp danh sách sinh viên theo điểm",
-        "5": "Thoát"
-    }
-    for key, value in menu.items():
-        print(f"{key}: {value}")
-    choice = input("Chọn chức năng: ")
-    return choice

@@ -1,0 +1,24 @@
+[
+  {
+    "ma_nv": "HC0001",
+    "ho_ten": "Phạm Minh Tài",
+    "chuc_vu": "Hành Chính",
+    "luong": 5000.0,
+    "doanh_so": 0.0,
+    "hoa_hong": 0.0,
+    "luong_trach_nhiem": 0.0,
+    "thu_nhap": 5000.0,
+    "thue_tn": 0
+  },
+  {
+    "ma_nv": "TP0001",
+    "ho_ten": "John Phạm",
+    "chuc_vu": "Trưởng Phòng",
+    "luong": 9000.0,
+    "doanh_so": 0.0,
+    "hoa_hong": 0.0,
+    "luong_trach_nhiem": 2000.0,
+    "thu_nhap": 11000.0,
+    "thue_tn": 0
+  }
+]

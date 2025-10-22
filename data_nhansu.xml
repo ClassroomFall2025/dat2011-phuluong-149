@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DANHSACH_NHANSU>
+    <NHAN_VIEN>
+        <_ma_nv>HC0001</_ma_nv>
+        <_ho_ten>Nguyễn Vũ Nhựt</_ho_ten>
+        <_luong>12000000.0</_luong>
+        <_HanhChinh__chuc_vu>Hành Chính</_HanhChinh__chuc_vu>
+        <doanh_so>0.0</doanh_so>
+        <hoa_hong>0.0</hoa_hong>
+        <luong_trach_nhiem>0.0</luong_trach_nhiem>
+        <chuc_vu>Hành Chính</chuc_vu>
+    </NHAN_VIEN>
+    <NHAN_VIEN>
+        <_ma_nv>TT0001</_ma_nv>
+        <_ho_ten>Hồ Xuân Hương</_ho_ten>
+        <_luong>60000000.0</_luong>
+        <_TiepThi__chuc_vu>Tiếp Thị</_TiepThi__chuc_vu>
+        <_doanh_so>65000000.0</_doanh_so>
+        <_hoa_hong>0.1</_hoa_hong>
+        <luong_trach_nhiem>0.0</luong_trach_nhiem>
+        <chuc_vu>Tiếp Thị</chuc_vu>
+    </NHAN_VIEN>
+    <NHAN_VIEN>
+        <_TruongPhong__chuc_vu>Trưởng Phòng</_TruongPhong__chuc_vu>
+        <_ma_nv>TP0001</_ma_nv>
+        <_ho_ten>Vũ Minh</_ho_ten>
+        <_luong>10000000.0</_luong>
+        <_luong_trach_nhiem>12000000.0</_luong_trach_nhiem>
+        <doanh_so>0.0</doanh_so>
+        <hoa_hong>0.0</hoa_hong>
+        <chuc_vu>Trưởng Phòng</chuc_vu>
+    </NHAN_VIEN>
+    <NHAN_VIEN>
+        <_ma_nv>TT0002</_ma_nv>
+        <_ho_ten>Vũ Vân Thanh</_ho_ten>
+        <_luong>4500000.0</_luong>
+        <_TiepThi__chuc_vu>Tiếp Thị</_TiepThi__chuc_vu>
+        <_doanh_so>32000000.0</_doanh_so>
+        <_hoa_hong>0.1</_hoa_hong>
+        <luong_trach_nhiem>0.0</luong_trach_nhiem>
+        <chuc_vu>Tiếp Thị</chuc_vu>
+    </NHAN_VIEN>
+    <NHAN_VIEN>
+        <_ma_nv>HC0003</_ma_nv>
+        <_ho_ten>Trần Trung</_ho_ten>
+        <_luong>12000000.0</_luong>
+        <_HanhChinh__chuc_vu>Hành Chính</_HanhChinh__chuc_vu>
+        <doanh_so>0.0</doanh_so>
+        <hoa_hong>0.0</hoa_hong>
+        <luong_trach_nhiem>0.0</luong_trach_nhiem>
+        <chuc_vu>Hành Chính</chuc_vu>
+    </NHAN_VIEN>
+    <NHAN_VIEN>
+        <_ma_nv>HC0004</_ma_nv>
+        <_ho_ten>Lê Thành An</_ho_ten>
+        <_luong>5000000.0</_luong>
+        <_HanhChinh__chuc_vu>Hành Chính</_HanhChinh__chuc_vu>
+        <doanh_so>0.0</doanh_so>
+        <hoa_hong>0.0</hoa_hong>
+        <luong_trach_nhiem>0.0</luong_trach_nhiem>
+        <chuc_vu>Hành Chính</chuc_vu>
+    </NHAN_VIEN>
+    <NHAN_VIEN>
+        <_ma_nv>TT0003</_ma_nv>
+        <_ho_ten>Trần Thanh Thiện</_ho_ten>
+        <_luong>6000000.0</_luong>
+        <_TiepThi__chuc_vu>Tiếp Thị</_TiepThi__chuc_vu>
+        <_doanh_so>500000.0</_doanh_so>
+        <_hoa_hong>0.1</_hoa_hong>
+        <luong_trach_nhiem>0.0</luong_trach_nhiem>
+        <chuc_vu>Tiếp Thị</chuc_vu>
+    </NHAN_VIEN>
+    <NHAN_VIEN>
+        <_ma_nv>HC0005</_ma_nv>
+        <_ho_ten>Đinh Thành Dũng</_ho_ten>
+        <_luong>500000.0</_luong>
+        <_HanhChinh__chuc_vu>Hành Chính</_HanhChinh__chuc_vu>
+        <chuc_vu>Hành Chính</chuc_vu>
+    </NHAN_VIEN>
+</DANHSACH_NHANSU>

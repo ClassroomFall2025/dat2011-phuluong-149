@@ -2,11 +2,10 @@ from sinhvienpoly import *
 class Quanlysinhvien:
     def __init__(self):
         self.dssv = []
-
     def tao_sv_moi(self):
-        print("\nNhập thông tin sinh viên mới")
+        print("Nhập thông tin sinh viên mới")
         ten = input("Họ và Tên: ").strip()
-        nganh = input("Nhập ngành học: ").strip().lower()   
+        nganh = input("Nhập ngành học: ").strip()   
         while True:
             try:
                 diem = float(input("Nhập vào điểm: "))
@@ -24,19 +23,19 @@ class Quanlysinhvien:
         self.dssv.append(self.tao_sv_moi())
     def xuat_danh_sach_sinh_vien(self):
         if not self.dssv:
-            print("\nHãy nhập sinh viên.")
+            print("Hãy nhập sinh viên.")
             return
-        print("\nDanh sách sinh viên")
+        print("Danh sách sinh viên")
         for i, sv in enumerate(self.dssv, start=1):
             print(f"Sinh viên thứ {i}:", end=" ")
             sv.xuat_sv()
     def sinh_vien_gioi(self):
         sv_gioi = [sv for sv in self.dssv if sv.get_hoc_luc() == "Giỏi"]
         if not sv_gioi:
-            print("\nKhông có sinh viên nào đạt học lực giỏi.")
-            return           
-        print("\nDanh sách sinh viên giỏi")
-        for i, sv in enumerate(self.sv_gioi, start=1):
+            print("Không có sinh viên nào đạt học lực giỏi.")
+            return
+        print("Danh sách sinh viên giỏi")
+        for i, sv in enumerate(sv_gioi, start=1):
             print(f"Sinh viên thứ {i}:", end=" ")
             sv.xuat_sv()
     def sap_xep_theo_diem(self):
@@ -44,5 +43,5 @@ class Quanlysinhvien:
             print("\nChưa có sinh viên, không thể sắp xếp.")
             return
         self.dssv.sort(key=lambda sv: sv.get_diem(), reverse=True)
-        print("\nDanh sách sinh viên đã sắp xếp.")
+        print("Danh sách sinh viên đã sắp xếp.")
         self.xuat_danh_sach_sinh_vien()

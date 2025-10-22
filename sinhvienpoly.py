@@ -38,7 +38,10 @@ class SinhVienIT(SinhVienPoly):
         self.html = html
         self.css = css
     def nhap_thong_tin(self):
-        return super().nhap_thong_tin()
+        super().nhap_thong_tin()
+        self.java = float(input("Điểm Java: "))
+        self.html = float(input("Điểm HTML: "))
+        self.css = float(input("Điểm CSS: "))
     def get_diem(self):
         return (self.java * 2 + self.html + self.css) / 4
     def xuat_sv(self):
@@ -49,9 +52,9 @@ class SinhVienBiz(SinhVienPoly):
         self.marketing = marketing
         self.sales = sales
     def nhap_thong_tin(self):
-        super().nhap_thong_tin(self)
-        self.marketing = float(input("Mời nhập điểm Marketing:"))
-        self.sales = float(input("Mời nhập điểm Sales:"))
+        super().nhap_thong_tin()
+        self.marketing = float(input("Điểm Marketing: "))
+        self.sales = float(input("Điểm Sales: "))
     def get_diem(self):
         return (self.marketing + self.sales) / 2
     def xuat_sv(self):
